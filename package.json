@@ -1,0 +1,6 @@
+{
+    "version": "0.0.1",
+    "scripts": {
+        "yolo": "git add . && git commit -m \"$(curl -s api.kanye.rest/?format=text)\" && git push"
+    }
+}
